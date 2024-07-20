@@ -5,7 +5,8 @@ import CollegeLogin from "./Pages/LoginPages/CollegeLogin";
 import StudentLogin from "./Pages/LoginPages/StudentLogin";
 import RecoverAccount from "./Pages/LoginPages/RecoverAccount";
 import StudentDashboard from "./Pages/Dashboards/StudentDashboard";
-import Navbar from "./Components/Navbar";
+import CollegeDashboard from "./Pages/Dashboards/CollegeDashboard";
+import UniversityDashboard from "./Pages/Dashboards/UniversityDashboard";
 
 function App() {
   return (
@@ -17,6 +18,8 @@ function App() {
         <Route path="StudentLogin" element={<StudentLogin />} />
         <Route path="RecoverAccount" element={<RecoverAccount />} />
         <Route path="StudentDashboard" element={<StudentDashboard />} />
+        <Route path="CollegeDashboard" element={<CollegeDashboard />} />
+        <Route path="UniversityDashboard" element={<UniversityDashboard />} />
       </Routes>
     </div>
   );

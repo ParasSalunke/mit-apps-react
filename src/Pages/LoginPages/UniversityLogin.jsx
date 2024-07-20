@@ -17,7 +17,7 @@ function UniversityLogin() {
 
         // Redirect to the dashboard after a delay to show the alert
         setTimeout(() => {
-            navigate('/StudentDashboard');
+            navigate('/UniversityDashboard');
         }, 1000); // Adjust the delay as needed
     };
 

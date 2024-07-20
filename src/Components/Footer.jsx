@@ -8,9 +8,9 @@ function Footer() {
             <footer class="w-full dark:bg-gray-800">
                 <div class="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
                     <div class="py-16 flex justify-between items-center flex-col gap-8 lg:flex-row">
-                        <Link to="/" class="flex justify-center ">
+                        <a href="/" class="flex justify-center ">
                             <img src={logo} alt="mitadtlogo" className="h-20" />
-                        </Link>
+                        </a>
                         <div class="flex  space-x-4 sm:justify-center  ">
                             <Link to="https://twitter.com/mitadtpune" target='_blank' class="w-9 h-9 rounded-full bg-gray-800 flex justify-center items-center hover:bg-indigo-600">
                                 <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 20 20" fill="none">

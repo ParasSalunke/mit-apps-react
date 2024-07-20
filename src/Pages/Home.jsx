@@ -8,7 +8,8 @@ import Footer from "../Components/Footer";
 
 function Home() {
     return (
-        <div className="dark:bg-gray-800">
+        <div className="scrollbar-thin scrollbar-webkit dark:bg-gray-800">
+           
             <Navbar />
             <div className="flex h-full justify-center dark:bg-gray-800">
                 <div className="text-center max-w-6xl mx-10">
@@ -24,6 +25,7 @@ function Home() {
             </div>
             <HomeInfo />
             <Footer />
+           
         </div>
 
     );
