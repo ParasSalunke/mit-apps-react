@@ -1,6 +1,8 @@
 import React, { useState } from 'react';
 import { Helmet } from 'react-helmet';
 import { useNavigate } from 'react-router-dom';
+import Navbar from '../../Components/Navbar';
+
 // import LogInSuccess from './Alerts/LogInSuccess'; // Import the AlertSuccess component
 
 function StudentLogin() {
@@ -28,11 +30,12 @@ function StudentLogin() {
     };
 
     return (
-        <div>
+        <div className="dark:bg-gray-800">
+            <Navbar />
             <Helmet>
                 <title>Student Login</title>
             </Helmet>
-            <div className="flex h-screen bg-indigo-700">
+            <div className="flex h-screen dark:bg-gray-800 pb-96 pt-16">
                 <div className="w-full max-w-xs m-auto bg-indigo-100 rounded p-5">
                     <form>
                         <div>

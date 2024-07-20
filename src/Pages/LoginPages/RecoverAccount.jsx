@@ -1,6 +1,7 @@
 import React from 'react'
 import { Helmet } from 'react-helmet';
 import { useNavigate } from 'react-router-dom';
+import Navbar from '../../Components/Navbar';
 
 function RecoverAccount() {
 
@@ -13,12 +14,13 @@ function RecoverAccount() {
   };
 
   return (
-    <div>
+    <div className="dark:bg-gray-800">
+      <Navbar />
       <Helmet>
         <title>Recover Account | MIT Apps</title>
         <meta name="description" content="Recover your account in MIT Apps" />
       </Helmet>
-      <div className="flex h-screen bg-indigo-700">
+      <div className="flex h-screen dark:bg-gray-800 pb-96 pt-16">
         <div className="w-full max-w-xs m-auto bg-indigo-100 rounded p-5">
           <form>
             <div>

@@ -1,21 +1,24 @@
-import React from 'react'
+import React from 'react';
+import { Link } from 'react-router-dom'
 
 function HomeInfo() {
+
     return (
         <div>
-            <div>
-                <div className="dark:bg-gray-800 text-white">
-                    <h1 className="font-bold mb-4 pt-24">
+            <div className="flex justify-center p-4 dark:bg-gray-800 pt-16 pb-16">
+                <div className="bg-white p-6 rounded-lg shadow-lg max-w-4xl w-full">
+                    <h1 className="text-center text-base font-bold mb-4">
                         An online examination form filling schedule for the Summer Term Examinations 2023-2024
                     </h1>
                     <p className="mb-4">
                         As provided in the O.320 (B) of the Examination Ordinances 2023 there are following provisions for conducting
                         the Summer Term Examinations:
                     </p>
-                    <ul className=" mb-4">
+                    <ul className="list-disc list-inside mb-4">
                         <li>
                             Summer Term Examinations will be available to the students who have failed in courses, or have secured low
                             grade -
+                            <br/>
                             <ul className="list-decimal list-inside ml-4">
                                 <li>
                                     to improve by repeating the course/s at Summer Term on offer by re-registering and attending the
@@ -28,6 +31,7 @@ function HomeInfo() {
                                 </li>
                             </ul>
                         </li>
+                        <br/>
                         <li>
                             Those students who are appearing for Summer Term Examination after repeating the course in Summer Term and
                             the students with I Grade appearing for Summer Term Examination will get the actual Grade, calculated as per
@@ -39,35 +43,55 @@ function HomeInfo() {
                         An online Examination form filling schedule for the Summer Term Examinations July 2024 of all the schools for
                         all semesters is as follows:
                     </p>
-                    <table className="w-full mb-4">
-                        <thead>
-                            <tr>
-                                <th className="text-left">Particulars</th>
-                                <th className="text-left">Date</th>
-                            </tr>
-                        </thead>
-                        <tbody>
-                            <tr>
-                                <td>Start Date for the submission of an Online Exam form</td>
-                                <td>16.07.2024</td>
-                            </tr>
-                            <tr>
-                                <td>Last Date for the submission of an Online Exam form (Without Late Fee)</td>
-                                <td>20.07.2024</td>
-                            </tr>
-                            <tr>
-                                <td>Last Date for the submission of an Online Exam form (With Late Fee of Rs. 100/- per day)</td>
-                                <td>21.07.2024</td>
-                            </tr>
-                            <tr>
-                                <td>
-                                    Last Date for the submission of an Online Exam form (With Late Fee + Special Late fees of Rs. 300/- per
-                                    day)
-                                </td>
-                                <td>22.07.2024</td>
-                            </tr>
-                        </tbody>
-                    </table>
+                    <div className="overflow-x-auto pt-10 pb-10">
+                        <table className="min-w-full divide-y divide-gray-200">
+                            <thead className="bg-gray-50">
+                                <tr>
+                                    <th scope="col" className="px-6 py-3 text-left text-xs text-black font-bold uppercase tracking-wider">
+                                        Particulars
+                                    </th>
+                                    <th scope="col" className="px-6 py-3 text-left text-xs text-black font-bold uppercase tracking-wider">
+                                        Date
+                                    </th>
+                                </tr>
+                            </thead>
+                            <tbody className="bg-white divide-y divide-gray-200">
+                                <tr>
+                                    <td className="px-6 py-4 whitespace-nowrap">
+                                        Start Date for the submission of an Online Exam form
+                                    </td>
+                                    <td className="px-6 py-4 whitespace-nowrap">
+                                        16.07.2024
+                                    </td>
+                                </tr>
+                                <tr className="bg-gray-50">
+                                    <td className="px-6 py-4 whitespace-nowrap">
+                                        Last Date for the submission of an Online Exam form (Without Late Fee)
+                                    </td>
+                                    <td className="px-6 py-4 whitespace-nowrap">
+                                        20.07.2024
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td className="px-6 py-4 whitespace-nowrap">
+                                        Last Date for the submission of an Online Exam form (With Late Fee of Rs. 100/- per day)
+                                    </td>
+                                    <td className="px-6 py-4 whitespace-nowrap">
+                                        21.07.2024
+                                    </td>
+                                </tr>
+                                <tr className="bg-gray-50">
+                                    <td className="px-6 py-4 whitespace-nowrap">
+                                        Last Date for the submission of an Online Exam form <br />
+                                        (With Late Fee + Special Late fees of Rs. 300/- per day)
+                                    </td>
+                                    <td className="px-6 py-4 whitespace-nowrap">
+                                        22.07.2024
+                                    </td>
+                                </tr>
+                            </tbody>
+                        </table>
+                    </div>
                     <p className="mb-4">
                         Please note that as per the O.319 (7) there will be no makeup/summer term examinations for courses that are
                         100% internally assessed (CA based) and students are evaluated continuously throughout the semester e.g.
@@ -106,33 +130,37 @@ function HomeInfo() {
                     <h2 className="text-lg font-bold mb-2">Weblinks:</h2>
                     <ul className="list-disc list-inside">
                         <li>
-                            University Website:{" "}
-                            <a href="#" className="text-blue-500 underline">
-                                https://www.mituniversity.ac.in/
-                            </a>
+                            University Website:
+                            <Link to="https://www.mituniversity.ac.in" target='_blank' className="text-blue-500 pl-1" rel="ugc">
+                                https://www.mituniversity.ac.in
+                            </Link>
                         </li>
                         <li>
-                            Academic Bank of Credits:{" "}
-                            <a href="#" className="text-blue-500 underline">
-                                https://www.abc.gov.in/
-                            </a>{" "}
-                            (
-                            <a href="#" className="text-blue-500 underline">
+                            Academic Bank of Credits:
+                            <Link to="https://www.abc.gov.in" target='_blank' className="text-blue-500 pl-1" rel="ugc">
+                                https://www.abc.gov.in
+                            </Link>
+                        </li>
+                        <li>
+                            ABC ID Creation Video:
+                            <Link
+                                to="https://www.youtube.com/watch?v=Gw3DUHaJg1c"
+                                target='_blank' className="text-blue-500 pl-1"
+                            >
                                 ABC ID Creation Guide
-                            </a>
-                            )
+                            </Link>
                         </li>
                         <li>
-                            DigiLockerNAD:{" "}
-                            <a href="#" className="text-blue-500 underline">
-                                https://nad.digilocker.gov.in/
-                            </a>
+                            DigiLockerNAD:
+                            <Link to="https://nad.digilocker.gov.in" target='_blank' className="text-blue-500 pl-1" rel="ugc">
+                                https://nad.digilocker.gov.in
+                            </Link>
                         </li>
                         <li>
-                            Alumni Portal:{" "}
-                            <a href="#" className="text-blue-500 underline">
-                                https://alumni.mituniversity.edu.in/
-                            </a>
+                            Alumni Portal:
+                            <Link to="https://alumni.mituniversity.edu.in" target='_blank' className="text-blue-500 pl-1" rel="ugc">
+                                https://alumni.mituniversity.edu.in
+                            </Link>
                         </li>
                     </ul>
                 </div>
@@ -141,4 +169,4 @@ function HomeInfo() {
     )
 }
 
-export default HomeInfo
+export default HomeInfo;

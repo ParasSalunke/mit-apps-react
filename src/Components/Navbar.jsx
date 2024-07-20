@@ -1,22 +1,18 @@
 import React from 'react';
 import logo from '../assets/logo.png';
+import { Link } from 'react-router-dom';
 
 function Navbar() {
   return (
-    <nav className="bg-gray-800 p-5">
+    <nav className="p-5">
       <div className="container mx-auto flex justify-between items-center">
-        {/* Left Side (Empty) */}
-        {/* <div className="flex-shrink-0"></div> */}
-
-        {/* Centered Logo */}
+        <div className="flex-shrink-0"></div>
         <div className="flex-grow flex justify-center">
-          <a href="/" className="text-white text-lg font-bold">
+          <Link href="/" >
             <img src={logo} alt="MitAdtAppsLogo" className="h-24" />
-          </a>
+          </Link>
         </div>
-
-        {/* Right Side (Empty) */}
-        {/* <div className="flex-shrink-0"></div> */}
+        <div className="flex-shrink-0"></div>
       </div>
     </nav>
   );

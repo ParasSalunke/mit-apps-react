@@ -8,23 +8,21 @@ import Footer from "../Components/Footer";
 
 function Home() {
     return (
-        <div>
+        <div className="dark:bg-gray-800">
             <Navbar />
             <div className="flex h-full justify-center dark:bg-gray-800">
                 <div className="text-center max-w-6xl mx-10">
-                    <p className="my-3 text-sm tracking-widest text-white uppercase">
+                    <p className="my-3 text-sm font-bold tracking-widest text-white uppercase">
                         MIT Art, Design &amp; Technology University, Pune
                     </p>
-                    <div className="flex flex-col items-center justify-center gap-5 mt-6 md:flex-row pt-20">
+                    <div className="flex flex-col items-center justify-center gap-5 mt-6 md:flex-row pt-10">
                         <UniversityLoginButton />
                         <CollegeLoginButton />
                         <StudentLoginButton />
                     </div>
-                    <HomeInfo/>
-                      
                 </div>
-
             </div>
+            <HomeInfo />
             <Footer />
         </div>
 
