@@ -1,8 +1,13 @@
 import React from 'react'
+import { Helmet } from 'react-helmet';
 
 function Payments() {
   return (
-    <div>Payments</div>
+    <div>
+      <Helmet>
+        <title>Payments</title>
+      </Helmet>
+      Payments</div>
   )
 }
 

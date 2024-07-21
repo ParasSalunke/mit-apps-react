@@ -1,12 +1,14 @@
 // Profile.jsx
 import React from 'react';
+import { Helmet } from 'react-helmet';
 
 function Profile() {
-  // Fetch or display profile data here
   return (
     <div>
+      <Helmet>
+        <title>Profile</title>
+      </Helmet>
       <h1>Profile</h1>
-      {/* Display profile details */}
     </div>
   );
 }

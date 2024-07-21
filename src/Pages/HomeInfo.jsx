@@ -139,13 +139,13 @@ function HomeInfo() {
                         <li>
                             University Website:
                             <Link to="https://www.mituniversity.ac.in" target='_blank' className="text-blue-500 pl-1" rel="ugc">
-                                https://www.mituniversity.ac.in
+                                Click Here
                             </Link>
                         </li>
                         <li>
                             Academic Bank of Credits:
                             <Link to="https://www.abc.gov.in" target='_blank' className="text-blue-500 pl-1" rel="ugc">
-                                https://www.abc.gov.in
+                                Click Here
                             </Link>
                         </li>
                         <li>
@@ -154,19 +154,19 @@ function HomeInfo() {
                                 to="https://www.youtube.com/watch?v=Gw3DUHaJg1c"
                                 target='_blank' className="text-blue-500 pl-1"
                             >
-                                ABC ID Creation Guide
+                                Click Here
                             </Link>
                         </li>
                         <li>
                             DigiLockerNAD:
                             <Link to="https://nad.digilocker.gov.in" target='_blank' className="text-blue-500 pl-1" rel="ugc">
-                                https://nad.digilocker.gov.in
+                                Click Here
                             </Link>
                         </li>
                         <li>
                             Alumni Portal:
                             <Link to="https://alumni.mituniversity.edu.in" target='_blank' className="text-blue-500 pl-1" rel="ugc">
-                                https://alumni.mituniversity.edu.in
+                                Click Here
                             </Link>
                         </li>
                     </ul>

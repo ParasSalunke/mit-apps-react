@@ -1,5 +1,5 @@
-import React from 'react';
-import { Route, Routes } from 'react-router-dom';
+import React from "react";
+import { Route, Routes } from "react-router-dom";
 import Home from "./Pages/Home";
 import UniversityLogin from "./Pages/LoginPages/UniversityLogin";
 import CollegeLogin from "./Pages/LoginPages/CollegeLogin";
@@ -10,15 +10,15 @@ import UniversityDashboard from "./Pages/Dashboards/UniversityDashboard";
 
 // Student Components
 import StudentDashboard from "./Pages/Dashboards/StudentDashboard";
-import Dashboard from './StudentComponents/Dashboard';
-import Profile from './StudentComponents/Profile';
-import Program from './StudentComponents/Program';
-import ExamForms from './StudentComponents/ExamForms';
-import GradeCards from './StudentComponents/GradeCards';
-import Results from './StudentComponents/Results';
-import Redressal from './StudentComponents/Redressal';
-import StudentServices from './StudentComponents/StudentServices';
-import Payments from './StudentComponents/Payments';
+import Dashboard from "./StudentComponents/Dashboard";
+import Profile from "./StudentComponents/Profile";
+import Program from "./StudentComponents/Program";
+import ExamForms from "./StudentComponents/ExamForms";
+import GradeCards from "./StudentComponents/GradeCards";
+import Results from "./StudentComponents/Results";
+import Redressal from "./StudentComponents/Redressal";
+import StudentServices from "./StudentComponents/StudentServices";
+import Payments from "./StudentComponents/Payments";
 
 function App() {
   return (
@@ -31,7 +31,6 @@ function App() {
       <Route path="CollegeDashboard" element={<CollegeDashboard />} />
       <Route path="UniversityDashboard" element={<UniversityDashboard />} />
 
-    
       <Route path="StudentDashboard" element={<StudentDashboard />} />
       <Route path="Dashboard" element={<Dashboard />} />
       <Route path="Profile" element={<Profile />} />
@@ -42,8 +41,6 @@ function App() {
       <Route path="Redressal" element={<Redressal />} />
       <Route path="StudentServices" element={<StudentServices />} />
       <Route path="Payments" element={<Payments />} />
-
-
     </Routes>
   );
 }
