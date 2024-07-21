@@ -10,15 +10,17 @@ function HomeInfo() {
                     <h1 className="text-center text-base font-bold mb-4">
                         An online examination form filling schedule for the Summer Term Examinations 2023-2024
                     </h1>
+                    <br />
                     <p className="mb-4">
                         As provided in the O.320 (B) of the Examination Ordinances 2023 there are following provisions for conducting
                         the Summer Term Examinations:
                     </p>
+                    <br />
                     <ul className="list-disc list-inside mb-4">
                         <li>
                             Summer Term Examinations will be available to the students who have failed in courses, or have secured low
                             grade -
-                            <br/>
+                            <br />
                             <ul className="list-decimal list-inside ml-4">
                                 <li>
                                     to improve by repeating the course/s at Summer Term on offer by re-registering and attending the
@@ -31,7 +33,7 @@ function HomeInfo() {
                                 </li>
                             </ul>
                         </li>
-                        <br/>
+                        <br />
                         <li>
                             Those students who are appearing for Summer Term Examination after repeating the course in Summer Term and
                             the students with I Grade appearing for Summer Term Examination will get the actual Grade, calculated as per
@@ -39,11 +41,12 @@ function HomeInfo() {
                             course/s at Summer Term will get the Grade maximum up to B grade.
                         </li>
                     </ul>
+                    <br />
                     <p className="mb-4">
                         An online Examination form filling schedule for the Summer Term Examinations July 2024 of all the schools for
                         all semesters is as follows:
                     </p>
-                    <div className="overflow-x-auto pt-10 pb-10">
+                    <div className="overflow-x-auto pt-1 pb-10">
                         <table className="min-w-full divide-y divide-gray-200">
                             <thead className="bg-gray-50">
                                 <tr>
@@ -97,17 +100,20 @@ function HomeInfo() {
                         100% internally assessed (CA based) and students are evaluated continuously throughout the semester e.g.
                         courses like term projects, field work, studio work and other practical based courses.
                     </p>
+                    <br />
                     <p className="mb-4">
                         However, makeup /summer term examinations will be held only of those courses (except CA/Midterm/Internal etc.
                         component), examinations of which can be conducted in the examination hall/laboratory in the given time span
                         of two or three hours, as the case may be.
                     </p>
+                    <br />
                     <p className="mb-4">
                         If a student has applied for both re-evaluation and summer term examinations but has passed the re-evaluation
                         and is not willing to appear for the summer term examinations, the student must communicate with the
                         examination department through the concerned school at least 7 days prior to the commencement of the
                         examination to withdraw the application. Otherwise, the examination fee will not be refunded.
                     </p>
+                    <br />
                     <h2 className="text-lg font-bold mb-2">Important Note:</h2>
                     <ul className="list-disc list-inside mb-4">
                         <li>
@@ -127,6 +133,7 @@ function HomeInfo() {
                             needs to be submitted to the university through Exam Portal.
                         </li>
                     </ul>
+                    <br />
                     <h2 className="text-lg font-bold mb-2">Weblinks:</h2>
                     <ul className="list-disc list-inside">
                         <li>

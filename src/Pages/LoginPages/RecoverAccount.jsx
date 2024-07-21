@@ -17,7 +17,7 @@ function RecoverAccount() {
     <div className="dark:bg-gray-800">
       <Navbar />
       <Helmet>
-        <title>Recover Account | MIT Apps</title>
+        <title>Recover Account</title>
         <meta name="description" content="Recover your account in MIT Apps" />
       </Helmet>
       <div className="flex h-screen dark:bg-gray-800 pb-96 pt-16">

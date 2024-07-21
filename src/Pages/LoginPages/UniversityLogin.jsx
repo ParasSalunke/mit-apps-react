@@ -33,7 +33,7 @@ function UniversityLogin() {
         <div className="dark:bg-gray-800">
             <Navbar />
             <Helmet>
-                <title>Student Login</title>
+                <title>University Login</title>
             </Helmet>
             <div className="flex h-screen dark:bg-gray-800 pb-96 pt-16">
                 <div className="w-full max-w-xs m-auto bg-indigo-100 rounded p-5">
